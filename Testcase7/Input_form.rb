@@ -15,7 +15,6 @@ driver.manage.window.maximize
 
 #Input Form
 driver.find_element(id: 'first-name').send_keys($firstname)
-#driver.find_element(id: 'first-name').send_keys($first_name) 
 driver.find_element(id: 'last-name').send_keys($lastname)
 driver.find_element(id: 'job-title').send_keys($job_title)
 driver.find_element(id: 'radio-button-2').click
